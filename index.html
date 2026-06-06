@@ -1,179 +1,209 @@
-<html lang="it"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="fv.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="fv.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Works</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
 
+        header {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 20px;
+            box-sizing: border-box;
+        }
 
+        .logo-immagine {
+            height: 45px; 
+            width: auto;
+            display: block;
+        }
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HT-Works - Siti Web per Startup</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="T0958372509342311dhi0451245332CVFA4356S.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
-<meta name="description" content="HT-Works crea siti web moderni, veloci e professionali per startup e piccole attività. Siti vetrina e landing page ottimizzate per aumentare visibilità online. Servizi in Italia con focus su design, performance e semplicità.">
+        .cambio-lingua {
+            cursor: pointer;
+            background: none;
+            border: 1px solid #444;
+            color: #ffffff;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
 
-<meta name="keywords" content="creazione siti web startup, siti web per aziende, web design Italia, siti vetrina professionali, landing page conversione, sviluppo siti statici, web developer Italia, siti web veloci, ht works, t-works, siti per startup, creazione siti html css, web agency startup, siti web economici professionali, sviluppo web freelance Italia">
+        .cambio-lingua:hover {
+            background: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+        }
 
-<meta name="author" content="HT-Works">
-<meta name="robots" content="index, follow">
-<meta name="language" content="it">
+        main {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
 
-<meta name="geo.region" content="IT">
-<meta name="geo.placename" content="Italia">
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 60px;
+            line-height: 1.3;
+        }
 
-<meta property="og:title" content="HT-Works | Siti Web per Startup e Aziende">
-<meta property="og:description" content="Siti web moderni e veloci per startup e piccole attività. Design professionale e performance elevate.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://t-works.it/logo.png">
-<meta property="og:url" content="https://t-works.it">
+        .sezione-progetti {
+            margin-top: 20px;
+        }
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="HT-Works">
-<meta name="twitter:description" content="Creazione siti web per startup e aziende moderne.">
-<meta name="twitter:image" content="https://t-works.it/logo.png"
->
+        .sezione-progetti h2 {
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            border-bottom: 1px solid #222;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "HT-Works",
-  "url": "https://t-works.it",
-  "logo": "https://t-works.it/logo.png",
-  "description": "Azienda specializzata nella creazione di siti web per startup e piccole imprese con design moderno e prestazioni elevate.",
-  "areaServed": "Italia"
+        .sezione-progetti ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sezione-progetti li {
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        .sezione-progetti a {
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 1px dashed #555;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .sezione-progetti a:hover {
+            color: #00bcd4;
+            border-bottom: 1px solid #00bcd4;
+        }
+
+        .in-corso {
+            color: #666 !important;
+            font-style: italic;
+        }
+
+        footer {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px; 
+    padding: 20px 20px 40px 20px; 
+    box-sizing: border-box;
+    border-top: 1px solid #111;
 }
-</script>
-</head>
 
+        .contatti {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .contatti p {
+            margin: 0;
+            color: #888;
+            font-size: 1rem;
+        }
+
+        .contatti span {
+            margin: 0;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        .contatti a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contatti a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
 
-  <nav>
-    <div class="nav-logo">HT<span>-</span>Works</div>
-  </nav>
+    <header>
+        <img src="logo.png" alt="T-Works Logo" class="logo-immagine">
+        <button class="cambio-lingua" id="bottoneLingua" onclick="cambiaLingua()">🇮🇹 IT</button>
+    </header>
 
-  <section class="hero">
-    <div class="hero-bg">
-      <img src="sfondoiniziale.jpg" alt="sfondo">
-      <div class="hero-overlay"></div>
-    </div>
-    <div class="hero-content">
-      <div class="hero-tag">HT-Works</div>
-      <h1>La tua startup<br>non ha ancora<br>un sito web?</h1>
-      <p class="hero-sub">Sei nel posto giusto<span class="dot">.</span></p>
-      <a href="#about" class="cta-btn">Scopri di più ↓</a>
-    </div>
-  </section>
+    <main>
+        <h1 id="testo-principale">Website development for your company</h1>
 
-  <section class="about" id="about">
-    <div class="about-inner">
-      <div class="about-label">Chi siamo</div>
-      <div class="about-grid">
-        <div class="about-left">
-          <h2>Siamo Tiron<br>&amp; Harun.</h2>
+        <section class="sezione-progetti">
+            <h2 id="titolo-progetti">Projects</h2>
+            <ul>
+                <li>1. Verom - <a href="https://verom.it/" target="_blank">verom.it</a></li>
+                <li>2. Aki Serramenti - <a href="https://akiserramenti.it/" target="_blank">akiserramenti.it</a></li>
+                <li>3. Fire Burger & Tacos - <a href="https://fireburger.onrender.com/index.html" target="_blank">fireburger</a></li>
+                <li>4. Istanbul Kebap Bassano - <a href="https://instanbulbdg.it/" target="_blank">instanbulbdg.it</a></li>
+                <li class="in-corso" id="testo-in-corso">...and others..</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contatti">
+            <p>Email: <span>info@t-works.it</span></p>
+            <p>Instagram: <a href="https://instagram.com/tworks.it" target="_blank">@tworks.it</a></p>
         </div>
-        <div class="about-right">
-          <p>Due studenti di informatica con una passione vera per il mondo digitale e l'elettronica. Crediamo che ogni piccola realtà meriti una presenza online degna.</p>
-          <p>Aiutiamo startup e piccoli negozi a costruire siti web statici veloci, curati e professionali per migliorare la visibilità e fare la prima impressione giusta.</p>
-          <div class="about-tags">
-            <span>Siti Statici</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <section class="services" id="services">
-    <div class="services-inner">
-      <h2 class="services-title">Semplice.<br>Veloce.<br>Tuo.</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-num">01</div>
-          <h3>Sito Vetrina</h3>
-          <p>Una presenza online pulita e professionale per presentare la tua attività al mondo.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-num">02</div>
-          <h3>Landing Page</h3>
-          <p>Un sito mirato per far miglior impressione, guadagnare fiducia e clientela!</p>
-        </div>
-        <div class="service-card">
-          <div class="service-num">03</div>
-          <h3>Come lavoriamo?</h3>
-          <p>Facciamo i vostri bellissimi siti web principalmente HTML, CSS per lato front-end contando che sono statici, mentre per hostare il vostro sito momentaneamente usiamo servizi da render.com, git e repo su github. (dominio da register.it)</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="client" id="client">
-    <div class="client-inner">
-      <div class="client-label">Un nostro cliente sponsor</div>
-      <h2 class="client-title">Bassano<br>Kebap.</h2>
-      <img src="instanbul.png" alt="Bassano Kebap" class="client-logo">
-      <a href="https://instanbulbdg.it/" target="_blank" class="cta-btn">Visita il sito →</a>
-      <p class="client-desc">Uno dei migliori ristoranti a Bassano Del Grappa dove mangiare da solo o in compagnia!</p>
-    </div>
-  </section>
-
-   <section class="client" id="client">
-    <div class="client-inner">
-      <div class="client-label">Un nostro cliente sponsor</div>
-      <h2 class="client-title">A.K.I.<br>Serramenti</h2>
-      <img src="aki.png" alt="Aki Serramenti" class="client-logo">
-      <a href="https://akiserramenti.it/" target="_blank" class="cta-btn">Visita il sito →</a>
-      <p class="client-desc">Serramenti e chiusure!</p>
-    </div>
-  </section>
-
-   <section class="client" id="client">
-    <div class="client-inner">
-      <div class="client-label">Un nostro cliente sponsor</div>
-      <h2 class="client-title">RudiPittureEdili</h2>
-      <img src="rudi.png" alt="Rudi pitture" class="client-logo">
-      <a href="https://rudipittureedili.it/" target="_blank" class="cta-btn">Visita il sito →</a>
-      <p class="client-desc">Lavori edili!</p>
-    </div>
-  </section>
-
-   <section class="client" id="client">
-    <div class="client-inner">
-      <div class="client-label">Un nostro cliente sponsor</div>
-      <h2 class="client-title">GiulianoTuttoFare</h2>
-      <img src="giuliano.png" alt="Giulianottutofare" class="client-logo">
-      <a href="https://giulianotuttofare.it/" target="_blank" class="cta-btn">Visita il sito →</a>
-      <p class="client-desc">Tuttofare a bassano e dintorni!</p>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="contact-inner">
-      <div class="contact-label">Maggiori info.</div>
-      <h2>Parliamoci.</h2>
-      <p class="contact-sub">Hai un'idea, un progetto, una domanda? Scrivici, ti rispondiamo presto.</p>
-      <div class="contact-links">
-        <span class="contact-type">Email</span>
-        <span class="contact-value">info@t-works.it </span>
-        <a href="https://www.instagram.com/htworks.it" target="_blank" class="contact-item">
-          <span class="contact-type">Instagram</span>
-          <span class="contact-value">@tworks.it →</span>
-        </a>
-        <a href="http://www.tiktok.com/@htworks.it" target="_blank" class="contact-item">
-          <span class="contact-type">TikTok</span>
-          <span class="contact-value">@htworks.it →</span>
-        </a>
+    <script>
         
-      </div>
-    </div>
-  </section>
+        let linguaCorrente = 'en';
 
-  <footer>
-    <div class="footer-inner">
-      <span class="footer-logo">HT-Works</span>
-      <span class="footer-copy">© 2026 HT-Works</span>
-    </div>
-  </footer>
+        const traduzioni = {
+            en: {
+                principale: "Website development for your company",
+                progetti: "Projects",
+                inCorso: "...and others..",
+                bottone: "🇮🇹 IT"
+            },
+            it: {
+                principale: "Sviluppo siti web per la tua azienda",
+                progetti: "Progetti",
+                inCorso: "...e altri..",
+                bottone: "🇬🇧 EN"
+            }
+        };
 
-  </body></html>
+        function cambiaLingua() {
+            linguaCorrente = linguaCorrente === 'en' ? 'it' : 'en';
+            
+            document.getElementById('testo-principale').innerText = traduzioni[linguaCorrente].principale;
+            document.getElementById('titolo-progetti').innerText = traduzioni[linguaCorrente].progetti;
+            document.getElementById('testo-in-corso').innerText = traduzioni[linguaCorrente].inCorso;
+            document.getElementById('bottoneLingua').innerText = traduzioni[linguaCorrente].bottone;
+        }
+    </script>
+</body>
+</html>
