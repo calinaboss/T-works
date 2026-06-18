@@ -159,13 +159,28 @@
         <h1 id="testo-principale">Website development for your company</h1>
 
         <section class="sezione-progetti">
-            <h2 id="titolo-progetti">Projects</h2>
+            <h2 id="titolo-progetti">Projects (+$)</h2>
             <ul>
-                <li>1. Verom - <a href="https://verom.it/" target="_blank">verom.it</a></li>
-                <li>2. Aki Serramenti - <a href="https://akiserramenti.it/" target="_blank">akiserramenti.it</a></li>
-                <li>3. Fire Burger & Tacos - <a href="https://fireburgershakes.com/" target="_blank">fireburger</a></li>
-                <li>4. Istanbul Kebap Bassano - <a href="https://instanbulbdg.it/" target="_blank">instanbulbdg.it</a></li>
+                <li>2. Aki Serramenti (full website) - (150$) SEO inc.</a></li>
+                <li>3. Fire Burger & Tacos (full website + 3 pages) -  (200$) SEO inc.</a></li>
+                <li>4. Istanbul Kebap Bassano (full website) -  (150$) SEO inc.</a></li>
+                <li>5. G. TuttoFare (full website) -  (150$) SEO inc.</a></li>
+                <li>6. W.R. (full website) -  (150$) SEO inc.</a></li>
+                <li>7. Rudi P.E. (full website) -  (150$) SEO inc.</a></li>
+                <li>8. SyncroSystem (one page) -  (50$) </a></li>
+                <li>9. Ellebbi (one page) -  (50$) </a></li>
                 <li class="in-corso" id="testo-in-corso">...and others..</li>
+            </ul>
+        </section>
+
+        <section class="sezione-progetti">
+            <h2 id="titolo-progetti-fisici">Also physical projects</h2>
+            <ul>
+                <li>1. Custom PC Build - (30$)</li>
+                <li>2. Office PC Assembly & Setup - (30$)</li>
+                <li>3. Hardware Repair - (30$)</li>
+                <li>4. OS. Repair - (30$)</li>
+                <li>5. Electric scooter Repair - (20$)</li>
             </ul>
         </section>
     </main>
@@ -174,24 +189,27 @@
         <div class="contatti">
             <p>Email: <span>info@t-works.it</span></p>
             <p>Instagram: <a href="https://instagram.com/tworks.it" target="_blank">@tworks.it</a></p>
+            <p>GitHub: <a href="https://github.com/calinaboss" target="_blank">@calinaboss</a></p>
+
         </div>
     </footer>
 
     <script>
-        
         let linguaCorrente = 'en';
 
         const traduzioni = {
             en: {
                 principale: "Website development for your company",
-                progetti: "Projects",
+                progetti: "Projects (+ $)",
                 inCorso: "...and others..",
+                progettiFisici: "Also physical projects",
                 bottone: "🇮🇹 IT"
             },
             it: {
                 principale: "Sviluppo siti web per la tua azienda",
-                progetti: "Progetti",
+                progetti: "Progetti (+ $)",
                 inCorso: "...e altri..",
+                progettiFisici: "Anche progetti fisici",
                 bottone: "🇬🇧 EN"
             }
         };
@@ -202,6 +220,7 @@
             document.getElementById('testo-principale').innerText = traduzioni[linguaCorrente].principale;
             document.getElementById('titolo-progetti').innerText = traduzioni[linguaCorrente].progetti;
             document.getElementById('testo-in-corso').innerText = traduzioni[linguaCorrente].inCorso;
+            document.getElementById('titolo-progetti-fisici').innerText = traduzioni[linguaCorrente].progettiFisici;
             document.getElementById('bottoneLingua').innerText = traduzioni[linguaCorrente].bottone;
         }
     </script>
