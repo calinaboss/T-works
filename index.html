@@ -1,128 +1,235 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" dir="ltr">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-    <title>Tiron's website</title>
-    <link href="https://repo.techland.gg/css/base.min.css?v=7" rel="stylesheet" />
-    <link href="https://dyinglightgame.com/css/style.min.css?v=1782407893" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="apple-touch-icon" href="favicon.png" />
-    <style>
-        .static-hero {
-            position: relative;
-            width: 100%;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .bg-img-container {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            z-index: 1;
-        }
-        .bg-img-container img {
-            width: 100%; height: 100%; object-fit: cover;
-        }
-        .content-box {
-            position: relative;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 40px; 
-            padding: 20px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        .testo-centrato {
-            color: #fff;
-            text-align: center;
-            max-width: 800px;
-            font-size: 2rem;
-            line-height: 1.6;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .testo-centrato h1 {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        .testo-centrato span {
-            font-size: 15px;
-            text-align: center;
-        }
-        .btns {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-        .btn__taped {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-        }
-        .btn__taped span {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-        }
-        .btn__taped i {
-            margin-right: 10px;
-            font-size: 1.3em;
-            display: flex;
-            align-items: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>T-Works | Realizzazione Siti Web & Web Development — Calina Tiron</title>
+  <meta name="title" content="T-Works | Realizzazione Siti Web & Web Development — Calina Tiron">
+  <meta name="description" content="T-Works: realizzazione siti web, web development e sviluppo soluzioni digitali per aziende e startup. Fondato da Calina Tiron (Tiron C). Discord: t1ron | Email: tiron@tironc.it.">
+  <meta name="keywords" content="t-works, tworks, T-Works, t-works.it, realizzazione siti web, sviluppo siti web, web development, web developer, creazione siti internet, siti web per aziende, siti web per startup, Calina Tiron, calina tiron, Tiron C, tiron c, T1ron, t1ron, Apache, 4ltiron, tironcalina, calinaboss, programmazione web, siti web professionali">
+  <meta name="author" content="Calina Tiron (T-Works)">
+  <meta name="creator" content="Calina Tiron">
+  <meta name="publisher" content="T-Works">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://t-works.it/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="T-Works">
+  <meta property="og:title" content="T-Works | Realizzazione Siti Web & Web Development">
+  <meta property="og:description" content="Realizzazione siti web, web development e soluzioni digitali su misura per aziende e startup. Fondato da Calina Tiron (Tiron C).">
+  <meta property="og:url" content="https://t-works.it/">
+  <meta property="og:locale" content="it_IT">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="T-Works | Realizzazione Siti Web & Web Development">
+  <meta name="twitter:description" content="Realizzazione siti web, web development e soluzioni digitali. Fondato da Calina Tiron (Tiron C). Discord: t1ron | Email: tiron@tironc.it">
+  <meta name="twitter:url" content="https://t-works.it/">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#222222">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://t-works.it/#organization",
+        "name": "T-Works",
+        "alternateName": [
+          "t-works",
+          "tworks",
+          "t-works.it",
+          "T-Works Web Development",
+          "T-Works Realizzazione Siti Web"
+        ],
+        "url": "https://t-works.it/",
+        "logo": "https://t-works.it/favicon.svg",
+        "founder": {
+          "@id": "https://t-works.it/#founder"
+        },
+        "description": "T-Works è uno studio di web development e realizzazione siti web moderni, veloci e su misura per aziende, startup e professionisti.",
+        "areaServed": "IT",
+        "knowsAbout": [
+          "Realizzazione siti web",
+          "Sviluppo siti web",
+          "Web Development",
+          "Creazione siti web per startup",
+          "Creazione siti web per aziende",
+          "Frontend Web Development"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Customer Support",
+            "email": "tiron@tironc.it"
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "Discord",
+            "identifier": "t1ron",
+            "url": "https://discord.com"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://t-works.it/#founder",
+        "name": "Calina Tiron",
+        "givenName": "Calina",
+        "familyName": "Tiron",
+        "additionalName": "Apache",
+        "alternateName": [
+          "Tiron C",
+          "tiron c",
+          "T1ron",
+          "t1ron",
+          "Apache",
+          "4ltiron",
+          "tironcalina",
+          "calinaboss"
+        ],
+        "jobTitle": "Founder & Web Developer",
+        "url": "https://tironc.it/",
+        "sameAs": [
+          "https://tironc.it/",
+          "https://github.com/calinaboss"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://t-works.it/#website",
+        "url": "https://t-works.it/",
+        "name": "T-Works | Realizzazione Siti Web & Web Development",
+        "alternateName": [
+          "T-Works",
+          "t-works.it",
+          "Realizzazione siti web T-Works"
+        ],
+        "publisher": {
+          "@id": "https://t-works.it/#organization"
+        },
+        "inLanguage": "it-IT"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://t-works.it/#webpage",
+        "url": "https://t-works.it/",
+        "name": "T-Works | Realizzazione Siti Web & Web Development",
+        "description": "T-Works: realizzazione siti web, web development, sviluppo soluzioni web professionali.",
+        "isPartOf": {
+          "@id": "https://t-works.it/#website"
+        },
+        "about": {
+          "@id": "https://t-works.it/#organization"
+        },
+        "inLanguage": "it-IT"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: -0.7px;
+      line-height: 1.6;
+    }
+
+    button {
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 16px;
+      background: #222;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
 </head>
-<body class="home windows">
-    <div class="stonebackground"></div>
-    <header class="home-header">
-        <div class="static-hero">
-            <div class="bg-img-container">
-                <picture>
-                    <source srcset="https://dyinglightgame.com/img/rotator/3/bg_575.jpg" media="(max-width: 575px)">
-                    <source srcset="https://dyinglightgame.com/img/rotator/3/bg_768.jpg" media="(max-width: 768px)">
-                    <source srcset="https://dyinglightgame.com/img/rotator/3/bg_1024.jpg" media="(max-width: 1024px)">
-                    <source srcset="https://dyinglightgame.com/img/rotator/3/bg_1299.jpg" media="(max-width: 1299px)">
-                    <video class="hero__background-video" data-autoplay muted loop playsinline preload="none"
-            poster="https://dyinglightgame.com/wp-content/uploads/2026/09/hero-poster.webp" >
-            <source data-src="https://dyinglightgame.com/wp-content/uploads/2026/06/dlg-franchise-bg.mp4"
-                type="video/mp4">
-        </video> <!-- i just left it like this -->
-                </picture>
-            </div>
-            <div class="content-box">
-                <div class="btns">
-                    <a href="https://steamcommunity.com/id/tworks/" class="btn__taped btn__taped--transparent">
-                        <span><i class="fa-brands fa-steam"></i> Steam</span>
-                    </a>
-                    <a href="https://open.spotify.com/user/31sz55tzyn7kxlc4fon6vxz5v7xe?si=d01cfd27edbe45cf" class="btn__taped btn__taped--red">
-                        <span><i class="fa-brands fa-spotify"></i> Spotify</span>
-                    </a>
-                    <a href="javascript:void(0)" onclick="navigator.clipboard.writeText('t1ron'); alert('username copied');" class="btn__taped btn__taped--red">
-                        <span><i class="fa-brands fa-discord"></i> Discord</span>
-                    </a>
-                </div>
-                <div class="testo-centrato">
-                    <p>Hello this is my personal website here u can find some of my links.</p>
-                    <p><span>(i got the style and images from techlands website)</span></p>
-                </div>
-            </div>
-        </div>
-    </header>
+<body>
+  <div class="sr-only">
+    <article>
+      <h2>T-Works — Realizzazione Siti Web & Web Development</h2>
+      <p>T-Works (t-works.it) è il progetto e studio di web development e realizzazione siti web fondato da Calina Tiron (noto online anche come Tiron C, T1ron, Apache, 4ltiron, tironcalina, calinaboss).</p>
+      <p>I servizi principali di T-Works includono:</p>
+      <ul>
+        <li>Realizzazione siti web moderni, veloci e responsive</li>
+        <li>Web development per startup, aziende, negozi e liberi professionisti</li>
+        <li>Sviluppo siti vetrina e landing page ad alta conversione</li>
+        <li>Ottimizzazione SEO e indicizzazione su Google e Bing</li>
+      </ul>
+      <p>Per preventivi, informazioni e collaborazioni su progetti web:</p>
+      <ul>
+        <li>Contatto Discord: <strong>t1ron</strong> (copia username con il pulsante)</li>
+        <li>Contatto Email: <a href="mailto:tiron@tironc.it">tiron@tironc.it</a></li>
+        <li>Sito web personale del fondatore: <a href="https://tironc.it">tironc.it</a></li>
+      </ul>
+    </article>
+  </div>
+
+  <main>
+    <h1>hi, whatever you need ask it on discord or email me: tiron@tironc.it</h1>
+
+    <button type="button" onclick="copyUser()">Copy ds user</button>
+  </main>
+
+  <script>
+    function copyUser() {
+      const username = "t1ron";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(username).then(() => {
+          alert("Username 't1ron' copied");
+        }).catch(() => {
+          fallbackCopy(username);
+        });
+      } else {
+        fallbackCopy(username);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      alert("Username '" + text + "' copied");
+    }
+  </script>
 </body>
 </html>

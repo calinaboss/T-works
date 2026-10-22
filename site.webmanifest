@@ -1,0 +1,17 @@
+{
+  "name": "T-Works | Realizzazione Siti Web & Web Development",
+  "short_name": "T-Works",
+  "description": "T-Works — Realizzazione siti web, web development e soluzioni digitali.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#222222",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "128x128 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
