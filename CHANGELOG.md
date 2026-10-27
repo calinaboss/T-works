@@ -36,3 +36,4 @@
 <!-- 35 : aggiornati dettagli -->
 <!-- 36 : verifica versione -->
 <!-- 37 : piccolo appunto -->
+<!-- 38 : controllo template -->
