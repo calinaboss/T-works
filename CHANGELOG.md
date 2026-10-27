@@ -34,3 +34,4 @@
 <!-- 33 : revisione note sito -->
 <!-- 34 : check assets -->
 <!-- 35 : aggiornati dettagli -->
+<!-- 36 : verifica versione -->
