@@ -57,3 +57,4 @@
 <!-- 56 : verifica versione -->
 <!-- 57 : piccolo appunto -->
 <!-- 58 : controllo template -->
+<!-- 59 : aggiornato registro modifiche -->
