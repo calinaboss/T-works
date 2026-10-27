@@ -40,3 +40,4 @@
 <!-- 39 : aggiornato registro modifiche -->
 <!-- 40 : verifica link interni -->
 <!-- 41 : aggiornato changelog -->
+<!-- 42 : controllo risorse -->
