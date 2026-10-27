@@ -22,3 +22,4 @@
 <!-- 21 : aggiornato changelog -->
 <!-- 22 : controllo risorse -->
 <!-- 23 : revisione note sito -->
+<!-- 24 : check assets -->
