@@ -10,3 +10,4 @@
 <!-- 9 : aggiornato registro modifiche -->
 <!-- 10 : verifica link interni -->
 <!-- 11 : aggiornato changelog -->
+<!-- 12 : controllo risorse -->
