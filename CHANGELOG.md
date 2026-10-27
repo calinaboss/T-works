@@ -5,3 +5,4 @@
 <!-- 4 : check assets -->
 <!-- 5 : aggiornati dettagli -->
 <!-- 6 : verifica versione -->
+<!-- 7 : piccolo appunto -->
