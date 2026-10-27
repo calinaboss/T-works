@@ -11,3 +11,4 @@
 <!-- 10 : verifica link interni -->
 <!-- 11 : aggiornato changelog -->
 <!-- 12 : controllo risorse -->
+<!-- 13 : revisione note sito -->
