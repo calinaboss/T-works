@@ -28,3 +28,4 @@
 <!-- 27 : piccolo appunto -->
 <!-- 28 : controllo template -->
 <!-- 29 : aggiornato registro modifiche -->
+<!-- 30 : verifica link interni -->
