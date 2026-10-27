@@ -23,3 +23,4 @@
 <!-- 22 : controllo risorse -->
 <!-- 23 : revisione note sito -->
 <!-- 24 : check assets -->
+<!-- 25 : aggiornati dettagli -->
