@@ -52,3 +52,4 @@
 <!-- 51 : aggiornato changelog -->
 <!-- 52 : controllo risorse -->
 <!-- 53 : revisione note sito -->
+<!-- 54 : check assets -->
