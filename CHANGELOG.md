@@ -12,3 +12,4 @@
 <!-- 11 : aggiornato changelog -->
 <!-- 12 : controllo risorse -->
 <!-- 13 : revisione note sito -->
+<!-- 14 : check assets -->
