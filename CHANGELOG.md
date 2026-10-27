@@ -9,3 +9,4 @@
 <!-- 8 : controllo template -->
 <!-- 9 : aggiornato registro modifiche -->
 <!-- 10 : verifica link interni -->
+<!-- 11 : aggiornato changelog -->
