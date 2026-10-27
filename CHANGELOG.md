@@ -6,3 +6,4 @@
 <!-- 5 : aggiornati dettagli -->
 <!-- 6 : verifica versione -->
 <!-- 7 : piccolo appunto -->
+<!-- 8 : controllo template -->
