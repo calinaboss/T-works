@@ -58,3 +58,4 @@
 <!-- 57 : piccolo appunto -->
 <!-- 58 : controllo template -->
 <!-- 59 : aggiornato registro modifiche -->
+<!-- 60 : verifica link interni -->
