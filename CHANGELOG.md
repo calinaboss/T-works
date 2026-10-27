@@ -38,3 +38,4 @@
 <!-- 37 : piccolo appunto -->
 <!-- 38 : controllo template -->
 <!-- 39 : aggiornato registro modifiche -->
+<!-- 40 : verifica link interni -->
