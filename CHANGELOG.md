@@ -61,3 +61,4 @@
 <!-- 60 : verifica link interni -->
 <!-- 0 : aggiornato changelog minore -->
 <!-- 1 : check note sito -->
+<!-- 2 : revisione template -->
