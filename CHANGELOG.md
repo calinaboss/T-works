@@ -60,3 +60,4 @@
 <!-- 59 : aggiornato registro modifiche -->
 <!-- 60 : verifica link interni -->
 <!-- 0 : aggiornato changelog minore -->
+<!-- 1 : check note sito -->
