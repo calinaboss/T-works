@@ -7,3 +7,4 @@
 <!-- 6 : verifica versione -->
 <!-- 7 : piccolo appunto -->
 <!-- 8 : controllo template -->
+<!-- 9 : aggiornato registro modifiche -->
