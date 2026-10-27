@@ -18,3 +18,4 @@
 <!-- 17 : piccolo appunto -->
 <!-- 18 : controllo template -->
 <!-- 19 : aggiornato registro modifiche -->
+<!-- 20 : verifica link interni -->
