@@ -67,3 +67,4 @@
 <!-- 5 : piccolo appunto -->
 <!-- 6 : aggiornati dettagli changelog -->
 <!-- 7 : controllo versione interna -->
+<!-- 8 : verifica link note -->
