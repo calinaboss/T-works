@@ -46,3 +46,4 @@
 <!-- 45 : aggiornati dettagli -->
 <!-- 46 : verifica versione -->
 <!-- 47 : piccolo appunto -->
+<!-- 48 : controllo template -->
