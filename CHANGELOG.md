@@ -49,3 +49,4 @@
 <!-- 48 : controllo template -->
 <!-- 49 : aggiornato registro modifiche -->
 <!-- 50 : verifica link interni -->
+<!-- 51 : aggiornato changelog -->
