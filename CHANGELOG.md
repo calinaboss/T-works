@@ -30,3 +30,4 @@
 <!-- 29 : aggiornato registro modifiche -->
 <!-- 30 : verifica link interni -->
 <!-- 31 : aggiornato changelog -->
+<!-- 32 : controllo risorse -->
