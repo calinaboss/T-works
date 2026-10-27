@@ -69,3 +69,4 @@
 <!-- 7 : controllo versione interna -->
 <!-- 8 : verifica link note -->
 <!-- 9 : aggiornato log modifiche -->
+<!-- 10 : check assets -->
