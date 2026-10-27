@@ -19,3 +19,4 @@
 <!-- 18 : controllo template -->
 <!-- 19 : aggiornato registro modifiche -->
 <!-- 20 : verifica link interni -->
+<!-- 21 : aggiornato changelog -->
