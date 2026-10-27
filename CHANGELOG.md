@@ -3,3 +3,4 @@
 <!-- 2 : controllo risorse -->
 <!-- 3 : revisione note sito -->
 <!-- 4 : check assets -->
+<!-- 5 : aggiornati dettagli -->
