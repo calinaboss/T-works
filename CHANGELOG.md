@@ -53,3 +53,4 @@
 <!-- 52 : controllo risorse -->
 <!-- 53 : revisione note sito -->
 <!-- 54 : check assets -->
+<!-- 55 : aggiornati dettagli -->
