@@ -41,3 +41,4 @@
 <!-- 40 : verifica link interni -->
 <!-- 41 : aggiornato changelog -->
 <!-- 42 : controllo risorse -->
+<!-- 43 : revisione note sito -->
