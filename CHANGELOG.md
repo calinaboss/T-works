@@ -45,3 +45,4 @@
 <!-- 44 : check assets -->
 <!-- 45 : aggiornati dettagli -->
 <!-- 46 : verifica versione -->
+<!-- 47 : piccolo appunto -->
