@@ -43,3 +43,4 @@
 <!-- 42 : controllo risorse -->
 <!-- 43 : revisione note sito -->
 <!-- 44 : check assets -->
+<!-- 45 : aggiornati dettagli -->
