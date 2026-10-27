@@ -64,3 +64,4 @@
 <!-- 2 : revisione template -->
 <!-- 3 : controllo risorse -->
 <!-- 4 : verifica dettagli -->
+<!-- 5 : piccolo appunto -->
