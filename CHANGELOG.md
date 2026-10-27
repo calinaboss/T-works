@@ -51,3 +51,4 @@
 <!-- 50 : verifica link interni -->
 <!-- 51 : aggiornato changelog -->
 <!-- 52 : controllo risorse -->
+<!-- 53 : revisione note sito -->
