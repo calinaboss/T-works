@@ -71,3 +71,4 @@
 <!-- 9 : aggiornato log modifiche -->
 <!-- 10 : check assets -->
 <!-- 11 : revisione log -->
+<!-- 12 : completato aggiornamento -->
