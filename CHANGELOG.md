@@ -55,3 +55,4 @@
 <!-- 54 : check assets -->
 <!-- 55 : aggiornati dettagli -->
 <!-- 56 : verifica versione -->
+<!-- 57 : piccolo appunto -->
