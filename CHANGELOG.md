@@ -4,3 +4,4 @@
 <!-- 3 : revisione note sito -->
 <!-- 4 : check assets -->
 <!-- 5 : aggiornati dettagli -->
+<!-- 6 : verifica versione -->
