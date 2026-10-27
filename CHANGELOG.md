@@ -44,3 +44,4 @@
 <!-- 43 : revisione note sito -->
 <!-- 44 : check assets -->
 <!-- 45 : aggiornati dettagli -->
+<!-- 46 : verifica versione -->
