@@ -21,3 +21,4 @@
 <!-- 20 : verifica link interni -->
 <!-- 21 : aggiornato changelog -->
 <!-- 22 : controllo risorse -->
+<!-- 23 : revisione note sito -->
