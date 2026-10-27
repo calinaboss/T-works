@@ -26,3 +26,4 @@
 <!-- 25 : aggiornati dettagli -->
 <!-- 26 : verifica versione -->
 <!-- 27 : piccolo appunto -->
+<!-- 28 : controllo template -->
