@@ -25,3 +25,4 @@
 <!-- 24 : check assets -->
 <!-- 25 : aggiornati dettagli -->
 <!-- 26 : verifica versione -->
+<!-- 27 : piccolo appunto -->
