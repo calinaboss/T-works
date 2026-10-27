@@ -14,3 +14,4 @@
 <!-- 13 : revisione note sito -->
 <!-- 14 : check assets -->
 <!-- 15 : aggiornati dettagli -->
+<!-- 16 : verifica versione -->
