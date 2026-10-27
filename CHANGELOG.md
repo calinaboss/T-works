@@ -48,3 +48,4 @@
 <!-- 47 : piccolo appunto -->
 <!-- 48 : controllo template -->
 <!-- 49 : aggiornato registro modifiche -->
+<!-- 50 : verifica link interni -->
