@@ -62,3 +62,4 @@
 <!-- 0 : aggiornato changelog minore -->
 <!-- 1 : check note sito -->
 <!-- 2 : revisione template -->
+<!-- 3 : controllo risorse -->
