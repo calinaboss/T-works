@@ -13,3 +13,4 @@
 <!-- 12 : controllo risorse -->
 <!-- 13 : revisione note sito -->
 <!-- 14 : check assets -->
+<!-- 15 : aggiornati dettagli -->
