@@ -65,3 +65,4 @@
 <!-- 3 : controllo risorse -->
 <!-- 4 : verifica dettagli -->
 <!-- 5 : piccolo appunto -->
+<!-- 6 : aggiornati dettagli changelog -->
