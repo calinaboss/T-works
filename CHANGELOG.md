@@ -31,3 +31,4 @@
 <!-- 30 : verifica link interni -->
 <!-- 31 : aggiornato changelog -->
 <!-- 32 : controllo risorse -->
+<!-- 33 : revisione note sito -->
