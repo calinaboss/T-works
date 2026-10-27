@@ -35,3 +35,4 @@
 <!-- 34 : check assets -->
 <!-- 35 : aggiornati dettagli -->
 <!-- 36 : verifica versione -->
+<!-- 37 : piccolo appunto -->
