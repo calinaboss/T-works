@@ -24,3 +24,4 @@
 <!-- 23 : revisione note sito -->
 <!-- 24 : check assets -->
 <!-- 25 : aggiornati dettagli -->
+<!-- 26 : verifica versione -->
