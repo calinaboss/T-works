@@ -20,3 +20,4 @@
 <!-- 19 : aggiornato registro modifiche -->
 <!-- 20 : verifica link interni -->
 <!-- 21 : aggiornato changelog -->
+<!-- 22 : controllo risorse -->
