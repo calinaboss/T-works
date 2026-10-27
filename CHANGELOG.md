@@ -17,3 +17,4 @@
 <!-- 16 : verifica versione -->
 <!-- 17 : piccolo appunto -->
 <!-- 18 : controllo template -->
+<!-- 19 : aggiornato registro modifiche -->
