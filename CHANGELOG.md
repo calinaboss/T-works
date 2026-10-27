@@ -32,3 +32,4 @@
 <!-- 31 : aggiornato changelog -->
 <!-- 32 : controllo risorse -->
 <!-- 33 : revisione note sito -->
+<!-- 34 : check assets -->
